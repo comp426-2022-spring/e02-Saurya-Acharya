@@ -81,7 +81,7 @@ function App() {
             <input type="text" id="engagement" placeholder="engagement: number of commits" /><br/><br/>
             <button onClick={Add}>Add</button>
             <button onClick={Clear}>Clear</button> <br/><br/>
-            <label for="result"><b>Result:</b></label>
+            <label for="result"><b>Result: </b></label>
             <input type="text" id="result" value={currentSum} readOnly />
       </form>
     </div>
