@@ -78,7 +78,7 @@ function App() {
             <input type="text" id="questionnaire02" placeholder="questionnaire 02" /><br/><br/>
             <input type="text" id="questionnaire03" placeholder="questionnaire 03" /><br/><br/>
             <input type="text" id="final" placeholder="final" /><br/><br/>
-            <input type="text" id="engagement" placeholder="engagement: number of commits" /><br/><br/>
+            <input type="text" id="engagement" placeholder="commits" /><br/><br/>
             <button onClick={Add}>Add</button>
             <button onClick={Clear}>Clear</button> <br/><br/>
             <label for="result"><b>Result: </b></label>
